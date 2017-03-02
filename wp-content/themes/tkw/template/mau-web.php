@@ -251,6 +251,150 @@ define('DIR_FILE', "/file");
 					<div class="col-md-4 col-xs-12 text-center">
 						<div class="recent-work-resize wow fadeInDown">
 							<div class="recent-work-wrap">
+							<div class="hovereffect">
+								<div class="recent-work-image"
+									style="background: url(<?php echo THEME_URL . DIR_RESOURCE ; ?>/Images/website-huyen-thoai-viet.jpg) center">&nbsp;
+									
+								<div class="overlay">
+                                    <h2>123456789</h2>
+                    				<p>
+                    					<a href="#">LINK HERE</a>
+                    				</p>
+                                </div>
+								</div>
+                            </div>
+								<p class="text-center recent-work-title">
+									<a href="http://huyenthoaiviet.com.vn/" target="_blank"
+										title="Công Ty Huyền Thoại Việt">C&ocirc;ng Ty Huyền Thoại
+										Việt</a>
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-xs-12 text-center">
+						<div class="recent-work-resize wow fadeInDown">
+							<div class="recent-work-wrap">
+								<div class="recent-work-image"
+									style="background: url(<?php echo THEME_URL . DIR_RESOURCE ; ?>/Images/website-vinhomes-golden-river.jpg)">&nbsp;</div>
+
+								<p class="text-center recent-work-title">
+									<a href="http://duanbasonq1.com/" target="_blank"
+										title="Vinhomes Golden River">Vinhomes Golden River</a>
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-xs-12 text-center">
+						<div class="recent-work-resize wow fadeInDown">
+							<div class="recent-work-wrap">
+								<div class="recent-work-image"
+									style="background: url(<?php echo THEME_URL . DIR_RESOURCE ; ?>/Images/website-ford-4u.jpg)">&nbsp;</div>
+
+								<p class="text-center recent-work-title">
+									<a href="http://ford4u.vn/" target="_blank"
+										title="City Ford Sài Gòn">City Ford S&agrave;i G&ograve;n</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--/.row-->
+				<div class="row">
+					<div class="col-md-4 col-xs-12 text-center">
+						<div class="recent-work-resize wow fadeInDown">
+							<div class="recent-work-wrap">
+								<div class="recent-work-image"
+									style="background: url(<?php echo THEME_URL . DIR_RESOURCE ; ?>/Images/website-huyen-thoai-viet.jpg) center">&nbsp;</div>
+
+								<p class="text-center recent-work-title">
+									<a href="http://huyenthoaiviet.com.vn/" target="_blank"
+										title="Công Ty Huyền Thoại Việt">C&ocirc;ng Ty Huyền Thoại
+										Việt</a>
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-xs-12 text-center">
+						<div class="recent-work-resize wow fadeInDown">
+							<div class="recent-work-wrap">
+								<div class="recent-work-image"
+									style="background: url(<?php echo THEME_URL . DIR_RESOURCE ; ?>/Images/website-vinhomes-golden-river.jpg)">&nbsp;</div>
+
+								<p class="text-center recent-work-title">
+									<a href="http://duanbasonq1.com/" target="_blank"
+										title="Vinhomes Golden River">Vinhomes Golden River</a>
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-xs-12 text-center">
+						<div class="recent-work-resize wow fadeInDown">
+							<div class="recent-work-wrap">
+								<div class="recent-work-image"
+									style="background: url(<?php echo THEME_URL . DIR_RESOURCE ; ?>/Images/website-ford-4u.jpg)">&nbsp;</div>
+
+								<p class="text-center recent-work-title">
+									<a href="http://ford4u.vn/" target="_blank"
+										title="City Ford Sài Gòn">City Ford S&agrave;i G&ograve;n</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--/.row-->
+				<div class="row">
+					<div class="col-md-4 col-xs-12 text-center">
+						<div class="recent-work-resize wow fadeInDown">
+							<div class="recent-work-wrap">
+								<div class="recent-work-image"
+									style="background: url(<?php echo THEME_URL . DIR_RESOURCE ; ?>/Images/website-huyen-thoai-viet.jpg) center">&nbsp;</div>
+
+								<p class="text-center recent-work-title">
+									<a href="http://huyenthoaiviet.com.vn/" target="_blank"
+										title="Công Ty Huyền Thoại Việt">C&ocirc;ng Ty Huyền Thoại
+										Việt</a>
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-xs-12 text-center">
+						<div class="recent-work-resize wow fadeInDown">
+							<div class="recent-work-wrap">
+								<div class="recent-work-image"
+									style="background: url(<?php echo THEME_URL . DIR_RESOURCE ; ?>/Images/website-vinhomes-golden-river.jpg)">&nbsp;</div>
+
+								<p class="text-center recent-work-title">
+									<a href="http://duanbasonq1.com/" target="_blank"
+										title="Vinhomes Golden River">Vinhomes Golden River</a>
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-xs-12 text-center">
+						<div class="recent-work-resize wow fadeInDown">
+							<div class="recent-work-wrap">
+								<div class="recent-work-image"
+									style="background: url(<?php echo THEME_URL . DIR_RESOURCE ; ?>/Images/website-ford-4u.jpg)">&nbsp;</div>
+
+								<p class="text-center recent-work-title">
+									<a href="http://ford4u.vn/" target="_blank"
+										title="City Ford Sài Gòn">City Ford S&agrave;i G&ograve;n</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--/.row-->
+				<div class="row">
+					<div class="col-md-4 col-xs-12 text-center">
+						<div class="recent-work-resize wow fadeInDown">
+							<div class="recent-work-wrap">
 								<div class="recent-work-image"
 									style="background: url(<?php echo THEME_URL . DIR_RESOURCE ; ?>/Images/website-huyen-thoai-viet.jpg) center">&nbsp;</div>
 
