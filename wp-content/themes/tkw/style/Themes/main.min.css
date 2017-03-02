@@ -1388,66 +1388,34 @@ ul.pagination>li.active>a,ul.pagination>li:hover>a {
   text-align: left;
 }
 
-/* .hovereffect .recent-work-image {
-  display: block;
-  position: relative;
-  max-width: none;
-  width: calc(100% + 60px);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
-  transition: opacity 0.35s, transform 0.45s;
-  -webkit-transform: translate3d(-40px,0,0);
-  transform: translate3d(-40px,0,0);
-} */
-
-.hovereffect h2 {
-  text-transform: uppercase;
-  color: #289dcc;
-  position: relative;
-  font-size: 17px;
-  background-color: transparent;
-  padding: 15% 0 10px 0;
-  text-align: left;
-}
-
 .hovereffect .overlay:before {
   position: absolute;
-  top: 20px;
-  right: 20px;
-  bottom: 20px;
-  left: 20px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
   border: 1px solid #fff;
   content: '';
   opacity: 0;
-  filter: alpha(opacity=0);
+  filter: alpha(opacity=100);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
   transition: opacity 0.35s, transform 0.45s;
   -webkit-transform: translate3d(-20px,0,0);
   transform: translate3d(-20px,0,0);
 }
 
-.hovereffect a, .hovereffect p {
-  color: #000;
-  opacity: 0;
-  filter: alpha(opacity=1);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
-  transition: opacity 0.35s, transform 0.45s;
-  -webkit-transform: translate3d(-10px,0,0);
-  transform: translate3d(-10px,0,0);
-}
-
 .hovereffect:hover .recent-work-image {
-  opacity: 0.6;
+  opacity: 1;
   filter: alpha(opacity=60);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
 
-.hovereffect:hover .overlay:before,
-.hovereffect:hover a, .hovereffect:hover p {
-  background-color: #289dcc;
+.hovereffect:hover .overlay:before{
+  background-color: #fff;
   text-align: center;
-  opacity: 0.5;
-  filter: alpha(opacity=100);
+  opacity: 0.2;
+  filter: alpha(opacity=10);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
@@ -1455,13 +1423,53 @@ ul.pagination>li.active>a,ul.pagination>li:hover>a {
 	background-color: #289dcc;
   	text-align: center;
   	opacity: 0;
-}
-.hovereffect:hover p {
-	  background-color: #289dcc;
-	  opacity: 1;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+  transition: opacity 0.35s, transform 0.45s;
+  -webkit-transform: translate3d(-10px,0,0);
+  transform: translate3d(-10px,0,0);
 }
 .hovereffect:hover a{
-	
+	font-weight: bolder;
+	color: yellow;
+	background-color: #289dcc;
+	opacity: 1;
+	filter: alpha(opacity=0);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect span{
+  	text-align: center;
+  	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+  transition: opacity 0.35s, transform 0.45s;
+  -webkit-transform: translate3d(-10px,0,0);
+  transform: translate3d(-10px,0,0);
+}
+
+.hovereffect:hover span{
+	font-weight: bold;
+	color: yellow;
+	opacity: 1;
+	filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.recent-work-title .recent-web-demo{
+	border: 2px solid #cc0432;
+	margin-right: 10px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-animation: 2px;
+}
+
+.recent-work-title .recent-web-demo:hover{
+	color: #fff;
+	background: #cc0432;
+	margin-right: 10px;
 }
 <!--MEDIA RESPONSIVES -->
 @media ( min-width : 1200px) {

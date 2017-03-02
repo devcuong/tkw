@@ -64,4 +64,6 @@ function website_script() {
 	
 }
 add_action('wp_enqueue_scripts', 'website_script');
+add_theme_support('post-thumbnails');
+add_post_type_support( 'mau_website', 'thumbnail' );   
 
