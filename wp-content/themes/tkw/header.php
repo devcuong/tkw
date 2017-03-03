@@ -1,4 +1,62 @@
-<nav class="navbar navbar-inverse" role="banner">
+<?php 
+define( 'THEME_URL', get_stylesheet_directory_uri() );
+define( 'DIR_FILE', "/file" );
+?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="vi">
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="vi" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index, follow" />
+<meta name="msnbot" content="index, follow" />
+<meta name="revisit-after" content="1 days" />
+<meta name="geo.placename" content="Vietnamese" />
+<meta name="geo.region" content="VN" />
+<meta name="DC.creator" content="1OnNet - GianHangVN" />
+<meta name="DC.Language" content="vi" />
+<meta name="DC.Publisher" content="publisher-name" />
+<meta name="author" content="1OnNet - GianHangVN" />
+<meta name="copyright"
+	content="Copyright 2015 1OnNet.com - Vận hành bởi GianHangVN" />
+<meta property="og:type" content="Website" />
+<meta property="og:site_name"
+	content="Hệ thống Marketing Online 1OnNet.com - GianHangVN" />
+ <?php wp_head(); ?>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<link rel="shortcut icon" href="<?php echo THEME_URL . DIR_RESOURCE ; ?>/Icons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144"
+	href="Resources/Icons/apple-touch-icon-144-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+	href="Resources/Icons/apple-touch-icon-114-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+	href="Resources/Icons/apple-touch-icon-72-precomposed.png" />
+<link rel="apple-touch-icon-precomposed"
+	href="Resources/Icons/apple-touch-icon-57-precomposed.png" />
+
+<title>Công ty Thiết kế Website 1OnNet.com - Chuyên nghiệp - Uy tín</title>
+<meta name="description"
+	content="Công ty 1OnNet.com thiết kế website chuyên nghiệp, tương thích Mobile, chuẩn SEO Google. Bảo hành và hỗ trợ trọn đời. Không thiết kế web rẻ, kém chất lượng" />
+<meta property="og:title"
+	content="Công ty Thiết kế Website 1OnNet.com - Chuyên nghiệp - Uy tín" />
+<meta property="og:description"
+	content="Công ty 1OnNet.com thiết kế website chuyên nghiệp, tương thích Mobile, chuẩn SEO Google. Bảo hành và hỗ trợ trọn đời. Không thiết kế web rẻ, kém chất lượng" />
+<meta property="og:url" content="http://1onnet.com/" />
+<meta property="og:image"
+	content="http://1onnet.com/Resources/Images/logo-1onnet.jpg" />
+</head>
+<body ng-app="AppData">
+	<header id="header">
+		<nav class="navbar navbar-inverse" role="banner">
 <div class="container">
 <div class="navbar-header">
 <button type="button" class="navbar-toggle" data-toggle="collapse"
@@ -64,3 +122,4 @@
 				</div>
 			</div>
 		</nav>
+	</header>
