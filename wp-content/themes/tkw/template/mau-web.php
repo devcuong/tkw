@@ -11,7 +11,6 @@ define('DIR_FILE', "/file");
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="vi">
-<!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
@@ -480,84 +479,8 @@ define('DIR_FILE', "/file");
 			</div>
 		</div>
 	</section>
-
-	<section id="bottom">
-		<div class="container wow fadeInDown" data-wow-duration="1000ms"
-			data-wow-delay="600ms">
-			<div class="row">
-				<div class="col-md-3 col-sm-6">
-					<div class="widget">
-						<h3>VỀ CHÚNG TÔI</h3>
-						<ul>
-							<li><a title="Giới thiệu về 1OnNet" href="ve-chung-toi-2c.html">Giới
-									thiệu</a></li>
-							<li><a title="Tin tức" href="tin-tuc-4n.html">Tin tức</a></li>
-							<li><a title="Liên hệ với 1OnNet" href="lien-he.html">Liên hệ</a></li>
-						</ul>
-					</div>
-				</div>
-				<!--/.col-md-3-->
-
-				<div class="col-md-3 col-sm-6">
-					<div class="widget">
-						<h3>Thiết kế Website</h3>
-						<ul>
-							<li><a href="#">Thiết kế Website Vé máy bay</a></li>
-							<li><a href="#">Thiết kế Website Du lịch</a></li>
-							<li><a href="#">Thiết kế Website Bán hàng</a></li>
-							<li><a href="#">Thiết kế Website Công ty</a></li>
-							<li><a href="#">Thiết kế Website Tin tức</a></li>
-							<li><a href="#">Thiết kế Website Cá nhân</a></li>
-						</ul>
-					</div>
-				</div>
-				<!--/.col-md-3-->
-
-				<div class="col-md-3 col-sm-6">
-					<div class="widget">
-						<h3>DỊCH VỤ GIA TĂNG</h3>
-						<ul>
-							<li><a href="#">Thiết kế Logo</a></li>
-							<li><a href="#">Thiết kế Thương hiệu</a></li>
-							<li><a href="#">Chụp hình sản phẩm</a></li>
-							<li><a href="#">Đăng ký tên miền</a></li>
-							<li><a href="#">Quảng cáo Google</a></li>
-							<li><a href="#">Quảng cáo Facebook</a></li>
-						</ul>
-					</div>
-				</div>
-				<!--/.col-md-3-->
-
-				<div class="col-md-3 col-sm-6">
-					<div class="widget">
-						<h3>HỖ TRỢ KHÁCH HÀNG</h3>
-						<ul>
-							<li><a title="Hình thức thanh toán" href="thanh-toan-17c.html">Hình
-									thức thanh toán</a></li>
-							<li><a title="Quy trình Thiết kế web" href="quy-trinh-16c.html">Quy
-									trình Thiết kế web</a></li>
-							<li><a title="Hỗ trợ" href="lien-he.html">Hỗ trợ</a></li>
-						</ul>
-					</div>
-				</div>
-				<!--/.col-md-3-->
-
-			</div>
-		</div>
-	</section>
 	<footer id="footer" class="midnight-blue">
 		<?php get_footer(); ?>
 	</footer>
-	<!-- Placed at the end of the document so the pages load faster -->
-	<!-- 	<script src="../js/jquery-1.9.1.min.js"></script>
-	<script src="bootstrap.min.js"></script> -->
-	<!-- 	<script src="docs.min.js"></script> -->
-	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-	<!-- 	<script src="ie10-viewport-bug-workaround.js"></script> -->
-
-	<!-- jssor slider scripts-->
-	<!-- use jssor.slider.debug.js for debug -->
-	<!-- 	<script type="text/javascript" src="../js/jssor.slider.mini.js"></script> -->
-	<!-- 	<script type="text/javascript" src="myjs.js"></script> -->
 </body>
 </html>

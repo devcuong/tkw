@@ -69,9 +69,9 @@ define( 'DIR_FILE', "/file" );
         alt="Logo 1OnNet.com" src="<?php THEME_URL . DIR_IMAGE ; ?>/logo.jpg" />
         </a>
         </div>
-
-        <div class="collapse navbar-collapse navbar-right">
-        <ul class="nav navbar-nav">
+        <?php tkw_menu('primary-menu'); ?>
+        <!--<div class="collapse navbar-collapse navbar-right">
+         <ul class="nav navbar-nav">
         <li><a title="1OnNet là gì" href="ve-chung-toi-2c.html">Về chúng
         tôi</a></li>
         <li class="dropdown"><a class="dropdown-toggle"
@@ -118,8 +118,8 @@ define( 'DIR_FILE', "/file" );
 							<li><a title="Quy trình" href="quy-trinh-16c.html">Quy trình</a></li>
 							<li><a title="Thanh toán" href="thanh-toan-17c.html">Thanh toán</a></li>
 						<li><a title="Liên Hệ" href="lien-he.html">Liên Hệ</a></li>
-					</ul>
+					</ul> 
 				</div>
-			</div>
+			</div>-->
 		</nav>
 	</header>
