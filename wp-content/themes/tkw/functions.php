@@ -28,6 +28,9 @@ function website_style() {
 	wp_register_style('main-style', THEME_URL. DIR_STYLE . "/Themes/main.min.css", 'all');
 	wp_enqueue_style('main-style');
 	
+	wp_register_style('custome-style', THEME_URL . "/style.css", 'all');
+	wp_enqueue_style('custome-style');
+	
 }
 	
 add_action('wp_enqueue_scripts', 'website_style');
