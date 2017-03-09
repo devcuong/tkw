@@ -94,7 +94,7 @@ define('DIR_FILE', "/file");
 						style="position: absolute; left: 0px; top: 0px; width: 1300px; height: 500px; overflow: hidden;">
 						<div>
 							<img u="image"
-								src2="<?php echo THEME_URL . DIR_RESOURCE ?>/Images/red.jpg" />
+								src2="<?php echo THEME_URL . DIR_RESOURCE ?>/Images/tp1.jpg" />
 						</div>
 						<div>
 							<img u="image"

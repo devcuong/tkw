@@ -325,7 +325,7 @@
 
 		<section id="content">
 			<div class="container">
-				<div class="center wow fadeInDown">
+				<div class="no-bottom center wow fadeInDown">
 					<h2 class="title-center">QUY TR&Igrave;NH L&Agrave;M VIỆC</h2>
 
 					<p class="des-center">
