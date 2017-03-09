@@ -668,9 +668,8 @@ ul.social-share li a:hover {
 	background-color: rgba(255, 255, 255, 0.75);
 	font-size: 21px;
 	font-weight: 400;
-	bottom: 42px;
+	bottom: 0px;
 	display: block;
-	padding: 15px 0
 }
 
 .recent-work-wrap .recent-work-title a {

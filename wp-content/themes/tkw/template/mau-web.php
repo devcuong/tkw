@@ -247,6 +247,44 @@ define('DIR_FILE', "/file");
 				</div>
 
 				<div class="row">
+				<?php 
+                    query_posts(array( 
+                        'post_type' => 'mau_website'
+                    ) );  
+                ?>
+                <?php while (have_posts()) : the_post(); ?>
+                       <div class="col-md-4 col-xs-12 text-center">
+						<div class="recent-work-resize wow fadeInDown">
+							<div class="recent-work-wrap">
+							<div class="hovereffect">
+								<div class="recent-work-image"
+									style="background: url(<?php $hinh_anh_demo =  get_post_meta(get_the_ID(), 'hinh_anh_demo', true);
+									if(! empty($hinh_anh_demo))
+									    echo wp_get_attachment_url($hinh_anh_demo, "thumbnail", true);
+									?>) center">&nbsp;
+									
+								<div class="overlay">
+								<a href="#"><?php
+                                $thong_tin_ve_mau = get_post_meta(get_the_ID(), 'thong_tin_ve_mau', true);
+                                if (! empty($thong_tin_ve_mau)) {
+                                    echo htmlspecialchars_decode($thong_tin_ve_mau);
+                                }
+                                ;
+                                ?></a>
+                                </div>
+								</div>
+                            </div>
+								<p class="text-center recent-work-title">
+								    <a href="#" class="recent-web-demo">DEMO</a>
+									<a href="http://huyenthoaiviet.com.vn/" target="_blank"
+										title="Công Ty Huyền Thoại Việt">C&ocirc;ng Ty Huyền Thoại
+										Việt</a>
+								</p>
+							</div>
+						</div>
+					</div>
+                <?php endwhile;
+                ?>
 					<div class="col-md-4 col-xs-12 text-center">
 						<div class="recent-work-resize wow fadeInDown">
 							<div class="recent-work-wrap">
@@ -296,9 +334,7 @@ define('DIR_FILE', "/file");
 							</div>
 						</div>
 					</div>
-				</div>
 				<!--/.row-->
-				<div class="row">
 					<div class="col-md-4 col-xs-12 text-center">
 						<div class="recent-work-resize wow fadeInDown">
 							<div class="recent-work-wrap">
@@ -341,9 +377,6 @@ define('DIR_FILE', "/file");
 							</div>
 						</div>
 					</div>
-				</div>
-				<!--/.row-->
-				<div class="row">
 					<div class="col-md-4 col-xs-12 text-center">
 						<div class="recent-work-resize wow fadeInDown">
 							<div class="recent-work-wrap">
@@ -386,9 +419,7 @@ define('DIR_FILE', "/file");
 							</div>
 						</div>
 					</div>
-				</div>
 				<!--/.row-->
-				<div class="row">
 					<div class="col-md-4 col-xs-12 text-center">
 						<div class="recent-work-resize wow fadeInDown">
 							<div class="recent-work-wrap">
@@ -417,7 +448,6 @@ define('DIR_FILE', "/file");
 							</div>
 						</div>
 					</div>
-
 					<div class="col-md-4 col-xs-12 text-center">
 						<div class="recent-work-resize wow fadeInDown">
 							<div class="recent-work-wrap">
@@ -431,8 +461,6 @@ define('DIR_FILE', "/file");
 							</div>
 						</div>
 					</div>
-				</div>
-				<!--/.row-->
 			</div>
 			<!--/.container-->
 		</section>
@@ -479,8 +507,6 @@ define('DIR_FILE', "/file");
 			</div>
 		</div>
 	</section>
-	<footer id="footer" class="midnight-blue">
 		<?php get_footer(); ?>
-	</footer>
 </body>
 </html>

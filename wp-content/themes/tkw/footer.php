@@ -5,81 +5,60 @@
 			     <?php
         if (is_active_sidebar('first-footer-widget-area') && ! is_active_sidebar('second-footer-widget-area') && ! is_active_sidebar('third-footer-widget-area') && ! is_active_sidebar('fourth-footer-widget-area')) :
             ?>
-			<aside class="fatfooter" role="complementary">
-							<div class="first full-width widget-area">
-			<?php dynamic_sidebar( 'first-footer-widget-area' ); ?>
+    		    <div class="col-md-3 col-sm-6">
+    			<?php dynamic_sidebar( 'first-footer-widget-area' ); ?>
+    				<!-- .first .widget-area -->
 			</div>
-				<!-- .first .widget-area -->
-
-			</aside>
 			<!-- #fatfooter -->
-
-
-        <?php elseif (is_active_sidebar('first-footer-widget-area') && is_active_sidebar('second-footer-widget-area') && ! is_active_sidebar('third-footer-widget-area') && ! is_active_sidebar('fourth-footer-widget-area')) :
+        
+        <?php 
+elseif (is_active_sidebar('first-footer-widget-area') && is_active_sidebar('second-footer-widget-area') && ! is_active_sidebar('third-footer-widget-area') && ! is_active_sidebar('fourth-footer-widget-area')) :
             ?>
-			<aside class="fatfooter" role="complementary">
-							<div class="first half left widget-area">
+       <div class="col-md-3 col-sm-6">
 			<?php dynamic_sidebar( 'first-footer-widget-area' ); ?>
-			</div>
-							<!-- .first .widget-area -->
+		</div>
+			<div class="col-md-3 col-sm-6">
+			<?php dynamic_sidebar( 'second-footer-widget-area' ); ?>
+        </div>
 
-							<div class="second half right widget-area">
+        
+        <?php 
+elseif (is_active_sidebar('first-footer-widget-area') && is_active_sidebar('second-footer-widget-area') && is_active_sidebar('third-footer-widget-area') && ! is_active_sidebar('fourth-footer-widget-area')) :
+            ?>
+      <div class="col-md-3 col-sm-6">
+			<?php dynamic_sidebar( 'first-footer-widget-area' ); ?>
+	       </div>
+			<!-- .first .widget-area -->
+			<div class="col-md-3 col-sm-6">
 			<?php dynamic_sidebar( 'second-footer-widget-area' ); ?>
 			</div>
-							<!-- .second .widget-area -->
-			</aside>
-			<!-- #fatfooter -->
-
-
-        <?php elseif (is_active_sidebar('first-footer-widget-area') && is_active_sidebar('second-footer-widget-area') && is_active_sidebar('third-footer-widget-area') && ! is_active_sidebar('fourth-footer-widget-area')) :
-            ?>
-			<aside class="fatfooter" role="complementary">
-							<div class="first one-third left widget-area">
-			<?php dynamic_sidebar( 'first-footer-widget-area' ); ?>
-			</div>
-							<!-- .first .widget-area -->
-
-							<div class="second one-third widget-area">
-			<?php dynamic_sidebar( 'second-footer-widget-area' ); ?>
-			</div>
-							<!-- .second .widget-area -->
-
-							<div class="third one-third right widget-area">
+			<!-- .second .widget-area -->
+			<div class="col-md-3 col-sm-6">
 			<?php dynamic_sidebar( 'third-footer-widget-area' ); ?>
-			</div>
 				<!-- .third .widget-area -->
-			</aside>
-			<!-- #fatfooter -->
-
-
-        <?php elseif (is_active_sidebar('first-footer-widget-area') && is_active_sidebar('second-footer-widget-area') && is_active_sidebar('third-footer-widget-area') && is_active_sidebar('fourth-footer-widget-area')) :
-            ?>
-
-			<aside class="fatfooter" role="complementary">
-							<div class="first quarter left widget-area">
-			<?php dynamic_sidebar( 'first-footer-widget-area' ); ?>
 			</div>
-							<!-- .first .widget-area -->
 
-							<div class="second quarter widget-area">
+        
+        <?php 
+elseif (is_active_sidebar('first-footer-widget-area') && is_active_sidebar('second-footer-widget-area') && is_active_sidebar('third-footer-widget-area') && is_active_sidebar('fourth-footer-widget-area')) :
+            ?>
+         <div class="col-md-3 col-sm-6">
+			<?php dynamic_sidebar( 'first-footer-widget-area' ); ?>
+		</div>
+			<!-- .first .widget-area -->
+			<div class="col-md-3 col-sm-6">
 			<?php dynamic_sidebar( 'second-footer-widget-area' ); ?>
 			</div>
-							<!-- .second .widget-area -->
-
-							<div class="third quarter widget-area">
+			<!-- .second .widget-area -->
+			<div class="third quarter widget-area">
 			<?php dynamic_sidebar( 'third-footer-widget-area' ); ?>
 			</div>
-							<!-- .third .widget-area -->
-
-							<div class="fourth quarter right widget-area">
+			<!-- .third .widget-area -->
+			<div class="col-md-3 col-sm-6">
 			<?php dynamic_sidebar( 'fourth-footer-widget-area' ); ?>
 			</div>
-				<!-- .fourth .widget-area -->
-			</aside>
-			<!-- #fatfooter -->
 
 <?php endif; ?>
-</footer>
 		</div>
 	</div>
 </section>
