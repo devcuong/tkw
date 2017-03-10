@@ -98,8 +98,7 @@
 
 								<h2>C&ocirc;ng nghệ &amp; Kỹ thuật ti&ecirc;n tiến</h2>
 
-								<h4>Sử dụng CMS tự ph&aacute;t triển tr&ecirc;n nền ASP.NET mang
-									t&iacute;nh bảo mật cao nhất</h4>
+								<h4>Sử dụng CMS tự ph&aacute;t triển tr&ecirc;n WORDPRESS tốt nhất và chuẩn SEO nhất hiện nay</h4>
 							</div>
 						</div>
 						<!--/.col-md-4-->
@@ -367,7 +366,7 @@
 							0949.119.871</a>
 					</p>
 					<p>
-						Email: <a href="mailto:info@1onnet.com" target="_top">info@1onnet.com</a>
+						Email: <a href="mailto:info@ThietKeWeb24H.net" target="_top">info@ThietKeWeb24H.net</a>
 					</p>
 				</div>
 				<div class="col-sm-5" ng-controller="ControllerDataContactUs">

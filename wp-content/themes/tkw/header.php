@@ -23,10 +23,10 @@ define( 'DIR_FILE', "/file" );
 <meta name="DC.Publisher" content="publisher-name" />
 <meta name="author" content="1OnNet - GianHangVN" />
 <meta name="copyright"
-	content="Copyright 2015 1OnNet.com - Vận hành bởi GianHangVN" />
+	content="Copyright 2015 ThietKeWeb24H.net - Vận hành bởi GianHangVN" />
 <meta property="og:type" content="Website" />
 <meta property="og:site_name"
-	content="Hệ thống Marketing Online 1OnNet.com - GianHangVN" />
+	content="Hệ thống Marketing Online ThietKeWeb24H.net - GianHangVN" />
  <?php wp_head(); ?>
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
@@ -43,16 +43,16 @@ define( 'DIR_FILE', "/file" );
 <link rel="apple-touch-icon-precomposed"
 	href="Resources/Icons/apple-touch-icon-57-precomposed.png" />
 
-<title>Công ty Thiết kế Website 1OnNet.com - Chuyên nghiệp - Uy tín</title>
+<title>Công ty Thiết kế Website ThietKeWeb24H.net - Chuyên nghiệp - Uy tín</title>
 <meta name="description"
-	content="Công ty 1OnNet.com thiết kế website chuyên nghiệp, tương thích Mobile, chuẩn SEO Google. Bảo hành và hỗ trợ trọn đời. Không thiết kế web rẻ, kém chất lượng" />
+	content="Công ty ThietKeWeb24H.net thiết kế website chuyên nghiệp, tương thích Mobile, chuẩn SEO Google. Bảo hành và hỗ trợ trọn đời. Không thiết kế web rẻ, kém chất lượng" />
 <meta property="og:title"
-	content="Công ty Thiết kế Website 1OnNet.com - Chuyên nghiệp - Uy tín" />
+	content="Công ty Thiết kế Website ThietKeWeb24H.net - Chuyên nghiệp - Uy tín" />
 <meta property="og:description"
-	content="Công ty 1OnNet.com thiết kế website chuyên nghiệp, tương thích Mobile, chuẩn SEO Google. Bảo hành và hỗ trợ trọn đời. Không thiết kế web rẻ, kém chất lượng" />
-<meta property="og:url" content="http://1onnet.com/" />
+	content="Công ty ThietKeWeb24H.net thiết kế website chuyên nghiệp, tương thích Mobile, chuẩn SEO Google. Bảo hành và hỗ trợ trọn đời. Không thiết kế web rẻ, kém chất lượng" />
+<meta property="og:url" content="http://ThietKeWeb24H.net/" />
 <meta property="og:image"
-	content="http://1onnet.com/Resources/Images/logo-1onnet.jpg" />
+	content="http://ThietKeWeb24H.net/Resources/Images/logo-1onnet.jpg" />
 </head>
 <body ng-app="AppData">
 	<header id="header">
@@ -66,7 +66,7 @@ define( 'DIR_FILE', "/file" );
     class="icon-bar"></span>
     </button>
     <a class="navbar-brand" href="index.html"> <img class="logo"
-        alt="Logo 1OnNet.com" src="<?php THEME_URL . DIR_IMAGE ; ?>/logo.jpg" />
+        alt="Logo ThietKeWeb24H.net" src="<?php echo THEME_URL . DIR_RESOURCE . DIR_IMAGE ; ?>/logo.png" />
         </a>
         </div>
         <?php tkw_menu('primary-menu'); ?>

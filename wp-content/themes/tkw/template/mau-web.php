@@ -28,10 +28,10 @@ define('DIR_FILE', "/file");
 <meta name="DC.Publisher" content="publisher-name" />
 <meta name="author" content="1OnNet - GianHangVN" />
 <meta name="copyright"
-	content="Copyright 2015 1OnNet.com - Vận hành bởi GianHangVN" />
+	content="Copyright 2015 ThietKeWeb24H.net - Vận hành bởi GianHangVN" />
 <meta property="og:type" content="Website" />
 <meta property="og:site_name"
-	content="Hệ thống Marketing Online 1OnNet.com - GianHangVN" />
+	content="Hệ thống Marketing Online ThietKeWeb24H.net - GianHangVN" />
  <?php wp_head(); ?>
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
@@ -49,16 +49,16 @@ define('DIR_FILE', "/file");
 <link rel="apple-touch-icon-precomposed"
 	href="Resources/Icons/apple-touch-icon-57-precomposed.png" />
 
-<title>Công ty Thiết kế Website 1OnNet.com - Chuyên nghiệp - Uy tín</title>
+<title>Công ty Thiết kế Website ThietKeWeb24H.net - Chuyên nghiệp - Uy tín</title>
 <meta name="description"
-	content="Công ty 1OnNet.com thiết kế website chuyên nghiệp, tương thích Mobile, chuẩn SEO Google. Bảo hành và hỗ trợ trọn đời. Không thiết kế web rẻ, kém chất lượng" />
+	content="Công ty ThietKeWeb24h.net thiết kế website chuyên nghiệp, tương thích Mobile, chuẩn SEO Google. Bảo hành và hỗ trợ trọn đời. Không thiết kế web rẻ, kém chất lượng" />
 <meta property="og:title"
-	content="Công ty Thiết kế Website 1OnNet.com - Chuyên nghiệp - Uy tín" />
+	content="Công ty Thiết kế Website ThietKeWeb24h.net - Chuyên nghiệp - Uy tín" />
 <meta property="og:description"
-	content="Công ty 1OnNet.com thiết kế website chuyên nghiệp, tương thích Mobile, chuẩn SEO Google. Bảo hành và hỗ trợ trọn đời. Không thiết kế web rẻ, kém chất lượng" />
-<meta property="og:url" content="http://1onnet.com/" />
+	content="Công ty ThietKeWeb24H.net thiết kế website chuyên nghiệp, tương thích Mobile, chuẩn SEO Google. Bảo hành và hỗ trợ trọn đời. Không thiết kế web rẻ, kém chất lượng" />
+<meta property="og:url" content="http://ThietKeWeb24H.net/" />
 <meta property="og:image"
-	content="http://1onnet.com/Resources/Images/logo-1onnet.jpg" />
+	content="http://ThietKeWeb24H.net/Resources/Images/logo-1onnet.jpg" />
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -240,10 +240,9 @@ define('DIR_FILE', "/file");
 		<section id="recent-works">
 			<div class="container">
 				<div class="center wow fadeInDown">
-					<h2 class="title-center">KH&Aacute;CH H&Agrave;NG Đ&Atilde; PHỤC VỤ</h2>
+					<h2 class="title-center">MẪU BẤT ĐỘNG SẢN CHÚNG TÔI ĐANG CÓ</h2>
 
-					<p class="des-center">Họ đ&atilde; th&agrave;nh c&ocirc;ng
-						v&agrave; h&agrave;i l&ograve;ng về Ch&uacute;ng t&ocirc;i</p>
+					<p class="des-center">Hàng ngàn khách hàng đã sử dụng những mẫu này và họ đã thành công</p>
 				</div>
 
 				<div class="row">
@@ -258,9 +257,9 @@ define('DIR_FILE', "/file");
 							<div class="recent-work-wrap">
 							<div class="hovereffect">
 								<div class="recent-work-image"
-									style="background: url(<?php $hinh_anh_demo =  get_post_meta(get_the_ID(), 'hinh_anh_demo', true);
-									if(! empty($hinh_anh_demo))
-									    echo wp_get_attachment_url($hinh_anh_demo, "thumbnail", true);
+									style="background: url(<?php $hinh_anh_thumbnail =  get_post_meta(get_the_ID(), 'hinh_anh_thumbnail', true);
+									if(! empty($hinh_anh_thumbnail))
+									    echo wp_get_attachment_url($hinh_anh_thumbnail, "thumbnail", true);
 									?>) center">&nbsp;
 									
 								<div class="overlay">
@@ -275,192 +274,19 @@ define('DIR_FILE', "/file");
 								</div>
                             </div>
 								<p class="text-center recent-work-title">
-								    <a href="#" class="recent-web-demo">DEMO</a>
-									<a href="http://huyenthoaiviet.com.vn/" target="_blank"
-										title="Công Ty Huyền Thoại Việt">C&ocirc;ng Ty Huyền Thoại
-										Việt</a>
+								    <a href="<?php
+                                             the_permalink();   
+								    ?>" class="recent-web-demo">XEM MẪU</a>
+									<a href="<?php
+                                             the_permalink();   
+								    ?>" target="_blank"
+										title="Công Ty Huyền Thoại Việt"> <?php the_title(); ?> </a>
 								</p>
 							</div>
 						</div>
 					</div>
                 <?php endwhile;
                 ?>
-					<div class="col-md-4 col-xs-12 text-center">
-						<div class="recent-work-resize wow fadeInDown">
-							<div class="recent-work-wrap">
-							<div class="hovereffect">
-								<div class="recent-work-image"
-									style="background: url(<?php echo THEME_URL . DIR_RESOURCE ; ?>/Images/website-huyen-thoai-viet.jpg) center">&nbsp;
-									
-								<div class="overlay">
-								<a href="#">LINK HERE</a>
-                                </div>
-								</div>
-                            </div>
-								<p class="text-center recent-work-title">
-								    <a href="#" class="recent-web-demo">DEMO</a>
-									<a href="http://huyenthoaiviet.com.vn/" target="_blank"
-										title="Công Ty Huyền Thoại Việt">C&ocirc;ng Ty Huyền Thoại
-										Việt</a>
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4 col-xs-12 text-center">
-						<div class="recent-work-resize wow fadeInDown">
-							<div class="recent-work-wrap">
-								<div class="recent-work-image"
-									style="background: url(<?php echo THEME_URL . DIR_RESOURCE ; ?>/Images/website-vinhomes-golden-river.jpg)">&nbsp;</div>
-
-								<p class="text-center recent-work-title">
-									<a href="http://duanbasonq1.com/" target="_blank"
-										title="Vinhomes Golden River">Vinhomes Golden River</a>
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4 col-xs-12 text-center">
-						<div class="recent-work-resize wow fadeInDown">
-							<div class="recent-work-wrap">
-								<div class="recent-work-image"
-									style="background: url(<?php echo THEME_URL . DIR_RESOURCE ; ?>/Images/website-ford-4u.jpg)">&nbsp;</div>
-
-								<p class="text-center recent-work-title">
-									<a href="http://ford4u.vn/" target="_blank"
-										title="City Ford Sài Gòn">City Ford S&agrave;i G&ograve;n</a>
-								</p>
-							</div>
-						</div>
-					</div>
-				<!--/.row-->
-					<div class="col-md-4 col-xs-12 text-center">
-						<div class="recent-work-resize wow fadeInDown">
-							<div class="recent-work-wrap">
-								<div class="recent-work-image"
-									style="background: url(<?php echo THEME_URL . DIR_RESOURCE ; ?>/Images/website-huyen-thoai-viet.jpg) center">&nbsp;</div>
-
-								<p class="text-center recent-work-title">
-									<a href="http://huyenthoaiviet.com.vn/" target="_blank"
-										title="Công Ty Huyền Thoại Việt">C&ocirc;ng Ty Huyền Thoại
-										Việt</a>
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4 col-xs-12 text-center">
-						<div class="recent-work-resize wow fadeInDown">
-							<div class="recent-work-wrap">
-								<div class="recent-work-image"
-									style="background: url(<?php echo THEME_URL . DIR_RESOURCE ; ?>/Images/website-vinhomes-golden-river.jpg)">&nbsp;</div>
-
-								<p class="text-center recent-work-title">
-									<a href="http://duanbasonq1.com/" target="_blank"
-										title="Vinhomes Golden River">Vinhomes Golden River</a>
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4 col-xs-12 text-center">
-						<div class="recent-work-resize wow fadeInDown">
-							<div class="recent-work-wrap">
-								<div class="recent-work-image"
-									style="background: url(<?php echo THEME_URL . DIR_RESOURCE ; ?>/Images/website-ford-4u.jpg)">&nbsp;</div>
-
-								<p class="text-center recent-work-title">
-									<a href="http://ford4u.vn/" target="_blank"
-										title="City Ford Sài Gòn">City Ford S&agrave;i G&ograve;n</a>
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-xs-12 text-center">
-						<div class="recent-work-resize wow fadeInDown">
-							<div class="recent-work-wrap">
-								<div class="recent-work-image"
-									style="background: url(<?php echo THEME_URL . DIR_RESOURCE ; ?>/Images/website-huyen-thoai-viet.jpg) center">&nbsp;</div>
-
-								<p class="text-center recent-work-title">
-									<a href="http://huyenthoaiviet.com.vn/" target="_blank"
-										title="Công Ty Huyền Thoại Việt">C&ocirc;ng Ty Huyền Thoại
-										Việt</a>
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4 col-xs-12 text-center">
-						<div class="recent-work-resize wow fadeInDown">
-							<div class="recent-work-wrap">
-								<div class="recent-work-image"
-									style="background: url(<?php echo THEME_URL . DIR_RESOURCE ; ?>/Images/website-vinhomes-golden-river.jpg)">&nbsp;</div>
-
-								<p class="text-center recent-work-title">
-									<a href="http://duanbasonq1.com/" target="_blank"
-										title="Vinhomes Golden River">Vinhomes Golden River</a>
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4 col-xs-12 text-center">
-						<div class="recent-work-resize wow fadeInDown">
-							<div class="recent-work-wrap">
-								<div class="recent-work-image"
-									style="background: url(<?php echo THEME_URL . DIR_RESOURCE ; ?>/Images/website-ford-4u.jpg)">&nbsp;</div>
-
-								<p class="text-center recent-work-title">
-									<a href="http://ford4u.vn/" target="_blank"
-										title="City Ford Sài Gòn">City Ford S&agrave;i G&ograve;n</a>
-								</p>
-							</div>
-						</div>
-					</div>
-				<!--/.row-->
-					<div class="col-md-4 col-xs-12 text-center">
-						<div class="recent-work-resize wow fadeInDown">
-							<div class="recent-work-wrap">
-								<div class="recent-work-image"
-									style="background: url(<?php echo THEME_URL . DIR_RESOURCE ; ?>/Images/website-huyen-thoai-viet.jpg) center">&nbsp;</div>
-
-								<p class="text-center recent-work-title">
-									<a href="http://huyenthoaiviet.com.vn/" target="_blank"
-										title="Công Ty Huyền Thoại Việt">C&ocirc;ng Ty Huyền Thoại
-										Việt</a>
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4 col-xs-12 text-center">
-						<div class="recent-work-resize wow fadeInDown">
-							<div class="recent-work-wrap">
-								<div class="recent-work-image"
-									style="background: url(<?php echo THEME_URL . DIR_RESOURCE ; ?>/Images/website-vinhomes-golden-river.jpg)">&nbsp;</div>
-
-								<p class="text-center recent-work-title">
-									<a href="http://duanbasonq1.com/" target="_blank"
-										title="Vinhomes Golden River">Vinhomes Golden River</a>
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-xs-12 text-center">
-						<div class="recent-work-resize wow fadeInDown">
-							<div class="recent-work-wrap">
-								<div class="recent-work-image"
-									style="background: url(<?php echo THEME_URL . DIR_RESOURCE ; ?>/Images/website-ford-4u.jpg)">&nbsp;</div>
-
-								<p class="text-center recent-work-title">
-									<a href="http://ford4u.vn/" target="_blank"
-										title="City Ford Sài Gòn">City Ford S&agrave;i G&ograve;n</a>
-								</p>
-							</div>
-						</div>
-					</div>
 			</div>
 			<!--/.container-->
 		</section>
@@ -476,16 +302,14 @@ define('DIR_FILE', "/file");
 
 				<div class="col-sm-7">
 
-					<h2 class="company-name">1OnNet - Vì sự thành công của bạn</h2>
-					<p>Văn phòng: Tầng Trệt Tòa Nhà D-Head 371 Nguyễn Kiệm, Phường 3,
-						Quận Gò Vấp, TP.HCM</p>
+					<h2 class="company-name">ThietKeWeb24H - Vì sự thành công của bạn</h2>
+					<p>Văn phòng: Tầng Trệt Nhà Số 5, đường HT31, phường Hiệp Thành, Quận 12, TP. Hồ Chí Minh</p>
 					<p>
-						Điện thoại: <a href="tel:08388668888">08 388.66.8888</a> -
-						Hotline: <a href="tel:09067998710949119871">0906.799.871 -
-							0949.119.871</a>
+						Điện thoại: <a href="tel:0964611882">0964.611.882</a> - MR.Cường <br>
+						Hotline Hỗ Trợ: <a href="tel:0964611882">0964.611.882</a> - MR.Cường <br>
 					</p>
 					<p>
-						Email: <a href="mailto:info@1onnet.com" target="_top">info@1onnet.com</a>
+						Email: <a href="mailto:info@ThietKeWeb24H.net" target="_top">info@ThietKeWeb24H.net</a>
 					</p>
 				</div>
 				<div class="col-sm-5" ng-controller="ControllerDataContactUs">

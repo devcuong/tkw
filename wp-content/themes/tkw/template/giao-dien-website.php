@@ -12,15 +12,15 @@
 	<head>
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Giao diện website - Thiết Kế Website Bất Động Sản chuyên nghiệp</title>
+		<title>Giao diện website - Thiết Kế Website 24H - Thiết kế website Bất Động Sản chuyên nghiệp</title>
 		<link rel="profile" href="http://gmpg.org/xfn/11">
 		<link rel="pingback" href="http://tkw.abc/xmlrpc.php">
-		<link rel="shortcut icon" href=" http://hamrongmedia.com/wp-content/uploads/2014/11/Logo2.png" type="image/x-icon" />
+		<link rel="shortcut icon" href="<?php echo THEME_URL . DIR_RESOURCE . DIR_IMAGE ; ?>/logo.png" type="image/x-icon" />
 	</head>
 
 	
 	<frameset rows="80,*" frameborder="no" border="0" framespacing="0">
-		<frame src="http://thietkewebbatdongsan.org/top-demo-website/?product_id=637&id_link=M21" scrolling="No" name="mainFrame" id="mainFrame" title="demoselect">
+		<frame src="<?php echo get_home_url(); ?>/top-demo-website/?product_id=637&id_link=M21" scrolling="No" name="mainFrame" id="mainFrame" title="demoselect">
 		<frame src="<?php echo $link_demo; ?>" noresize="noresize" name="bottomFrame" id="bottomFrame" title="demo">
 	</frameset>
 

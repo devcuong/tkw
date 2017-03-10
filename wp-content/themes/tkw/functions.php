@@ -8,7 +8,7 @@ define('THEME_URL', get_stylesheet_directory_uri());
 define('DIR_STYLE', "/style");
 define('DIR_JS', "/js");
 define('DIR_FILE', "/file");
-define('DIR_IMAGE', "/image");
+define('DIR_IMAGE', "/Images");
 define('DIR_RESOURCE', "/resource");
 define('THEME_DIR', get_stylesheet_directory());
 define('CORE', THEME_DIR . "/core");
@@ -125,7 +125,7 @@ function tkw_widgets_init() {
     'name' => __( 'First Footer Widget Area', 'doancuong' ),
     'id' => 'first-footer-widget-area',
     'description' => __( 'The first footer widget area', 'doancuong' ),
-    'before_widget' => '<div id="%1$s" class="widget-container %2$s">',
+    'before_widget' => '<div id="%1$s" class="widget">',
     'after_widget' => '</div>',
     'before_title' => '<h3 class="widget-title">',
     'after_title' => '</h3>',
@@ -136,7 +136,7 @@ function tkw_widgets_init() {
     'name' => __( 'Second Footer Widget Area', 'doancuong' ),
     'id' => 'second-footer-widget-area',
     'description' => __( 'The second footer widget area', 'doancuong' ),
-    'before_widget' => '<div id="%1$s" class="widget-container %2$s">',
+    'before_widget' => '<div id="%1$s" class="widget">',
     'after_widget' => '</div>',
     'before_title' => '<h3 class="widget-title">',
     'after_title' => '</h3>',
@@ -147,7 +147,7 @@ function tkw_widgets_init() {
     'name' => __( 'Third Footer Widget Area', 'doancuong' ),
     'id' => 'third-footer-widget-area',
     'description' => __( 'The third footer widget area', 'doancuong' ),
-    'before_widget' => '<div id="%1$s" class="widget-container %2$s">',
+    'before_widget' => '<div id="%1$s" class="widget">',
     'after_widget' => '</div>',
     'before_title' => '<h3 class="widget-title">',
     'after_title' => '</h3>',
@@ -158,7 +158,7 @@ function tkw_widgets_init() {
     'name' => __( 'Fourth Footer Widget Area', 'doancuong' ),
     'id' => 'fourth-footer-widget-area',
     'description' => __( 'The fourth footer widget area', 'doancuong' ),
-    'before_widget' => '<div id="%1$s" class="widget-container %2$s">',
+    'before_widget' => '<div id="%1$s" class="widget">',
     'after_widget' => '</div>',
     'before_title' => '<h3 class="widget-title">',
     'after_title' => '</h3>',

@@ -122,7 +122,7 @@ transition:background-position 15s ease-in-out;
 							<div class="buy-box">
 								<div custom-field-product="" class="demo_out">
 									<form class="form-demo"
-										action="http://tkw.abc/giao-dien-website" method="post">
+										action="<?php echo get_home_url(); ?>/xem-giao-dien-website" method="post">
 										<input type="hidden" name="link_demo"
 											value="<?php
         $lien_ket_toi_trang_demo = get_post_meta(get_the_ID(), 'lien_ket_toi_trang_demo', true);
