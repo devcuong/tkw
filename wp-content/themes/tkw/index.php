@@ -357,13 +357,11 @@
 
 				<div class="col-sm-7">
 
-					<h2 class="company-name">1OnNet - Vì sự thành công của bạn</h2>
-					<p>Văn phòng: Tầng Trệt Tòa Nhà D-Head 371 Nguyễn Kiệm, Phường 3,
-						Quận Gò Vấp, TP.HCM</p>
+					<h2 class="company-name">ThietKeWeb24h - Vì sự thành công của bạn</h2>
+					<p>Văn phòng: Tầng Trệt Nhà Số 5, đường HT31, phường Hiệp Thành, Quận 12, TP. Hồ Chí Minh</p>
 					<p>
-						Điện thoại: <a href="tel:08388668888">08 388.66.8888</a> -
-						Hotline: <a href="tel:09067998710949119871">0906.799.871 -
-							0949.119.871</a>
+						Điện thoại: <a href="tel:0964611882">0964.611.882</a> - MR.CƯỜNG <br>
+						Hotline Hỗ Trợ: <a href="tel:0964611882">0964.611.882 - MR.CƯỜNG</a>
 					</p>
 					<p>
 						Email: <a href="mailto:info@ThietKeWeb24H.net" target="_top">info@ThietKeWeb24H.net</a>
