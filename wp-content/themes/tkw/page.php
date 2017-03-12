@@ -1,22 +1,13 @@
 <?php get_header()?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <div id="ctl00_MainContent_divCenter">
-	<section class="no-margin" id="main-slider">
-		<div class="carousel slide">
-			<div class="carousel-inner">
-				<div class="item active"
-						style="background-image: url(<?php echo THEME_URL . DIR_RESOURCE ; ?>/Images/banner-mid.jpg)">
+	<section id="procedures">
 					<div class="container">
 						<div class="row center has-bg carousel-content">
 							<h1 class="title-center animation animated-item-1"><?php the_title(); ?></h1>
 						</div>
 					</div>
 				</div>
-				<!--/.item-->
-			</div>
-			<!--/.carousel-inner-->
-		</div>
-		<!--/.carousel-->
 	</section>
 	<section id="content">
 		<div class="container">
@@ -30,6 +21,9 @@
 		<!--/.container-->
 	</section>
 </div>
+<?php endwhile; ?>
+<?php endif; ?>
+<?php if ( !is_page('lien-he') ): ?>
 <section id="contact-info">
 	<div class="container">
 		<div class="center has-bg wow fadeInDown">
@@ -58,8 +52,8 @@
 		</div>
 	</div>
 </section>
-<?php endwhile; ?>
-                    <?php endif; ?>
+<?php endif; ?>
+
 	<?php get_footer()?>
 </body>
 </html>

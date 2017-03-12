@@ -1,0 +1,138 @@
+/********** Reset CSS **********/
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
+
+/********** MAIN **********/
+
+@charset "UTF-8";
+
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	border-bottom: 1px dashed #000;
+
+	background-color: #262626;
+	/*background: url(../img/pattern3.jpg);*/
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+	color: #fe9d00;
+}
+
+#main {
+	width: 960px;
+	height: 80px;
+	margin: 0 auto;
+}
+
+.banner {
+	float: left;
+	display: block;
+	height: 80px;
+}
+
+.banner a {
+	display: block;
+	height: 120px;
+}
+
+.banner a img {
+	margin: 15px 0;
+	height: 50px;
+}
+
+.hotline {
+	background: url(../img/contact2.png) no-repeat center left;
+	padding-left: 25px;
+}
+
+.support {
+	background: url(../img/support2.png) no-repeat center left;
+	padding-left: 25px;
+}
+
+.alert {
+	background: url(../img/alert2.png) no-repeat center left;
+	padding-left: 25px;
+}
+
+.check {
+	background: url(../img/check2.png) no-repeat center left;
+	padding-left: 25px;
+}
+
+.nav ul li {
+	display: inline-block;
+}
+
+.main-nav {
+	float: left;
+	margin-left: 50px;
+	margin: 15px 0;
+}
+
+.main-nav ul {
+	margin: 0 auto;
+}
+
+.main-nav ul li {
+	display: inline-block;
+}
+
+.main-nav ul li a {
+	line-height: 50px;
+	color: #fff;
+	padding: 0 10px;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.main-nav ul li:hover {
+	/*background-color: #000;*/
+	cursor: pointer;
+}
+
+.main-nav ul li:hover a {
+	color: #fe9d00;
+}
+
+.mua-ngay {
+	float: right;
+	margin-top: 5px;
+}
+
+.mua-ngay a {
+	box-shadow: 0 2px 0 #6f9a37;
+	position: relative;
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+	background-color: #82b440;
+	cursor: pointer;
+	display: inline-block;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	margin: 15px 0;
+	padding: 5px 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.mua-ngay a:hover {
+	box-shadow: 0 2px 0 #bb2121;
+	transition: all 0.5s ease-out;
+	background-color: #fe4444;
+	text-decoration: none;
+	color: #fff;
+}
+
+.mua-ngay img {
+	height: 16px;
+	padding-right: 5px;
+}

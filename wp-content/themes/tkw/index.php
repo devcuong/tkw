@@ -346,6 +346,7 @@
 			<!--/.container-->
 		</section>
 	</div>
+	
 	<section id="contact-info">
 		<div class="container">
 			<div class="center has-bg wow fadeInDown">

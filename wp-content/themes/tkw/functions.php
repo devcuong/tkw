@@ -4,6 +4,7 @@
   @ THEME_URL = lay duong dan thu muc theme
   @ CORE = lay duong dan thu muc /core
  **/
+include 'inc/walker.php';
 define('THEME_URL', get_stylesheet_directory_uri());
 define('DIR_STYLE', "/style");
 define('DIR_JS', "/js");
@@ -107,18 +108,39 @@ add_action('init', 'tkw_theme_setup');
  * */
 if(!function_exists('tkw_menu')){
     function tkw_menu($menu){
+		$tkw_walker = new Tkw_Nav_Walker;
+		/* var_dump($tkw_walker); */
         $menu = array(
             'theme_location' => $menu,
             'container' => 'nav',
             'container_class' => 'collapse navbar-collapse navbar-right',
-            'items_wrap' => '<ul id="%1$s" class="%2$s nav navbar-nav">%3$s</ul>'
+            'items_wrap' => '<ul id="%1$s" class="%2$s nav navbar-nav">%3$s</ul>',
+			 'menu_class' => 'nav-menu',
+			 'menu_id' => 'primary-menu',
+			 'walker' => $tkw_walker 
         );
         wp_nav_menu( $menu );
     }
 }
-
-
-
+	 if(!function_exists('add_class_on_li')){
+		function add_class_on_li($classes, $func, $args){
+			$classes[] = 'dropdown';
+			return $classes;
+		}
+	}
+	add_filter('nav_menu_css_class','add_class_on_li', 1, 3); 
+	
+function my_walker_nav_menu_start_el($item_output, $item, $depth, $args) {
+    // you can put your if statements in here (use item, depth and args in conditions)
+    if ( $depth == 2 ) {
+        $item_output = preg_replace('/<a /', '<a class="dropdown-toggle" ', $item_output, 1);
+    } 
+    return $item_output;
+}
+add_filter('walker_nav_menu_start_el', 'my_walker_nav_menu_start_el', 10, 4);
+/**
+ * Thiet lap witgets footer
+ * */
 function tkw_widgets_init() {
     // First footer widget area.
     register_sidebar( array(
@@ -166,12 +188,3 @@ function tkw_widgets_init() {
 
 }
 add_action( 'widgets_init', 'tkw_widgets_init' );
-
-/* add_filter( 'tiny_mce_before_init', 'myformatTinyMCE' );
-function myformatTinyMCE( $in ) {
-
-$in['wordpress_adv_hidden'] = FALSE;
-
-return $in;
-}
- */
